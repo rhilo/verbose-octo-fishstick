@@ -1,0 +1,21 @@
+{
+  "name": "verbose-octo-fishstick",
+  "scripts": {
+    "routeeablen": "node route-tool.js enable",
+    "routedisable": "node route-tool.js disable",
+    "start": "node index.js",
+    "test": "jest",
+    "stats": "echo stats"
+  },
+  "version": "0.0.1.0001",
+  "description": "usersAPI for all stuff userrelated globally over the company's branches",
+  "main": "index.js",
+  "repository": "https://github.com/rhilo/verbose-octo-fishstick.git",
+  "author": "C K",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1"
+  }
+}
