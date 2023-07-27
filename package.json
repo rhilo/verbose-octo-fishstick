@@ -1,8 +1,8 @@
 {
   "name": "verbose-octo-fishstick",
   "scripts": {
-    "routeeablen": "node route-tool.js enable",
-    "routedisable": "node route-tool.js disable",
+    "routeon": "node route-tool.js enable",
+    "routeoff": "node route-tool.js disable",
     "start": "node index.js",
     "test": "jest",
     "stats": "echo stats"
